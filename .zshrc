@@ -105,10 +105,6 @@ source $ZSH/oh-my-zsh.sh
 
 alias dotfiles='git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 
-dotfiles-here() {
-  git --git-dir=$HOME/.dotfiles --work-tree=$(pwd) "$@"
-}
-
 eval "$(oh-my-posh init zsh --config ~/.poshthemes/amro.omp.json)"
 
 export PATH=/usr/local/cuda-12.6/bin:$PATH
