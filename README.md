@@ -84,6 +84,12 @@ This repository contains my personal dotfiles, managed using a Git bare reposito
 - Pull changes: `dotfiles pull`
 - Check status: `dotfiles status`
 
+## Notes
+
+- Custom Terminal Startup command : 
+
+      `zsh -c '/home/lucky/applications/custom-terminal-startup.sh "$PWD"'`
+
 ## Tips
 
 - Only explicitly added files are tracked
