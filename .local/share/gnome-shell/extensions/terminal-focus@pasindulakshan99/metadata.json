@@ -1,0 +1,7 @@
+{
+  "name": "Terminal Focus",
+  "description": "Focus terminal windows via D-Bus",
+  "uuid": "terminal-focus@pasindulakshan99",
+  "shell-version": ["43", "44", "45"],
+  "version": 1
+}
