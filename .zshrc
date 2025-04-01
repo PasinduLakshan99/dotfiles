@@ -107,7 +107,7 @@ alias dotfiles='git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 
 eval "$(oh-my-posh init zsh --config ~/.poshthemes/amro.omp.json)"
 
-export PATH=/usr/local/cuda-12.6/bin:$PATH
+export PATH=/usr/local/cuda-12.8/bin:$PATH
 
 lazy_load_nvm() {
   unset -f npm node nvm
