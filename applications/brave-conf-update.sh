@@ -27,7 +27,7 @@ fi
 # The pattern to search for
 SEARCH_PATTERN="Exec=/usr/bin/brave-browser-stable %U"
 # The replacement text
-REPLACEMENT="Exec=/usr/bin/brave-browser-stable --enable-features=TouchpadOverscrollHistoryNavigation --disable-experiments"
+REPLACEMENT="Exec=/usr/bin/brave-browser-stable %U --enable-features=TouchpadOverscrollHistoryNavigation --disable-experiments"
 
 # Check if the file already contains the target configuration
 if grep -q "$REPLACEMENT" "$FILE_PATH"; then
